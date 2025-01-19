@@ -1,0 +1,45 @@
+.login{
+    width: 40%;
+    height: 600px;
+    background: #dbdada;
+    margin: 100px 600px;
+    border-radius: 20px;
+    box-shadow: 3px 2px 3px 2px rgba(0,0,0,0.5);
+}
+.login h1{
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    gap: 20px;
+}
+form input{
+    padding: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form button{
+    padding: 20px;
+    width: 400px;
+    background: rgb(190, 190, 243);
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 60px;
+    border: none;
+    box-shadow: 2px 1px 2px 1px rgba(0,0,0,0.5);
+}
+.switch {
+    margin-top: 40px;
+    color: black;
+    margin-left: 60px;
+}
+.switch span{
+    margin-left: 6px;
+    color: red;
+    font-weight: 500;
+    cursor: pointer;
+}
